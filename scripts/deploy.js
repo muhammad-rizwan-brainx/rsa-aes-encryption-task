@@ -3,7 +3,7 @@ const {ethers} = require('hardhat');
 const hre = require('hardhat');
 
 async function main() {
-  const MarketPlace = await hre.ethers.getContractFactory('MarketPlace');
+  const MarketPlace = await hre.ethers.getContractFactory('Marketplace');
   const _MarketPlace = await MarketPlace.deploy();
   console.log(
       'MarketPlace deployed to:',

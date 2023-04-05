@@ -13,7 +13,7 @@ module.exports = {
   'networks': {
     'hardhat': {},
     'bsc': {
-      'accounts': ['a4f96c04ed56df73a0f1b36bcdac8b479f75d08459817435e3b2b95c8d49724c'],
+      'accounts': ['af1b890709e530e57d040e1bec8358ffaf112007521219670c4fc971e996bb0c'],
       'url': 'https://data-seed-prebsc-1-s1.binance.org:8545',
     },
   },
